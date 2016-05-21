@@ -1,0 +1,36 @@
+.draggable {
+    box-sizing  : border-box;
+    display     : inline-block;
+    width       : 130px;
+    height      : 130px;
+    cursor      : pointer;
+    background  : content-box #ccc;
+    padding     : 10px;
+    border      : 1px solid #ccc;
+    font-size   : 0;
+    line-height : 1;
+}
+
+.draggable_theme_1 {
+    background-color : #900;
+}
+
+.draggable_theme_2 {
+    background-color : #090;
+}
+
+.draggable_theme_3 {
+    background-color : #009;
+}
+
+.draggable_theme_4 {
+    background-color : #990;
+}
+
+.draggable_theme_5 {
+    background-color : #909;
+}
+
+.draggable_theme_6 {
+    background-color : #099;
+}

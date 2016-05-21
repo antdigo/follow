@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery.Follow</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="draggable draggable_theme_1"></div>
+<div class="draggable draggable_theme_2"></div>
+<div class="draggable draggable_theme_3"></div>
+<div class="draggable draggable_theme_4"></div>
+<div class="draggable draggable_theme_5"></div>
+<div class="draggable draggable_theme_6"></div>
+
+<script src="js/jquery.2.2.3.min.js"></script>
+<script src="js/jquery.follow.js"></script>
+<script>
+    (function ($) {
+        $(".draggable").follow();
+    })(jQuery);
+</script>
+</body>
+</html>
